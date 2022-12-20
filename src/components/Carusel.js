@@ -9,7 +9,7 @@ const Carusel = () => {
         <img
           className="d-block container-fluid"
           src="https://www.adonde-y-cuando.es/site/images/illustration/iguazu_650.jpg"
-          style={{height:600}}
+          style={{height:600, width:9000}}
           alt="First slide"
         />
         </div>
@@ -25,7 +25,7 @@ const Carusel = () => {
         <img
           className="container-fluid"
           src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/36/cf/01/20170805-102238-largejpg.jpg?w=700&h=500&s=1"
-          style={{height:600}}
+          style={{height:600, width:9000}}
           alt="Second slide"
         />
 
@@ -43,7 +43,7 @@ const Carusel = () => {
         <img
           className="d-block"
           src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/20/a2/be.jpg"
-          style={{height:600}}
+          style={{height:600, width:9000}}
           alt="Third slide"
         />
 
