@@ -7,7 +7,7 @@ const Carusel = () => {
       <Carousel.Item>
         <div className="text-center">
         <img
-          className="d-block"
+          className="d-block container-fluid"
           src="https://www.adonde-y-cuando.es/site/images/illustration/iguazu_650.jpg"
           style={{height:600}}
           alt="First slide"
@@ -23,7 +23,7 @@ const Carusel = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block"
+          className="container-fluid"
           src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/36/cf/01/20170805-102238-largejpg.jpg?w=700&h=500&s=1"
           style={{height:600}}
           alt="Second slide"
