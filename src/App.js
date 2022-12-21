@@ -9,7 +9,7 @@ import Carusel from "./components/Carusel"
 function App() {
   const about = useRef(null);
   const carusel = useRef(null);
-  const contact = useRef(null);
+  const forms = useRef(null);
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
@@ -32,7 +32,7 @@ function App() {
             <li onClick={() => scrollToSection(carusel)} className="link">
             Que hacer?
             </li>
-          <li onClick={() => scrollToSection(contact)} className="link">
+          <li onClick={() => scrollToSection(forms)} className="link">
             Contacto
           </li>
           </div>
@@ -49,8 +49,8 @@ function App() {
       <div ref={carusel} className="Carrousel">
         <Carusel />
       </div>
-      <div ref={contact} className="contact">
-        <h1>Form</h1>
+      <div ref={forms} className="forms">
+        <Form />
       </div>
 
       <div ref={Footer} className="footer">

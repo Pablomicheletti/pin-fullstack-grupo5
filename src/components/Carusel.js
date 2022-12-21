@@ -7,7 +7,7 @@ const Carusel = () => {
       <Carousel.Item>
         <div className="text-center">
         <img
-          className="d-block"
+          className="d-block container-fluid"
           src="https://hoteldonhoracio.com/wp-content/uploads/2020/09/Cataratas-desde-Mendoza-Portada.jpg"
            
           alt="First slide"
@@ -24,8 +24,8 @@ const Carusel = () => {
       <Carousel.Item>
         <img
           className="d-block"
-          src="https://content.r9cdn.net/rimg/dimg/00/b2/0741409b-lm-83108-1697ceb7c46.jpg?width=1366&height=768&xhint=1297&yhint=1081&crop=true"
-           
+          src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/36/cf/01/20170805-102238-largejpg.jpg?w=700&h=500&s=1"
+          style={{height:600, width:9000}}
           alt="Second slide"
         />
 
