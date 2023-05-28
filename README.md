@@ -1,6 +1,7 @@
 # Proyecto integrador final Mundos E
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es el proyecto final de un curso de desarrollo web, en el que realizamos una web de las cataratas del Iguazú
+la cual está realizada con React en la parte del front end, y se usó Laravel para lo que es el back-end.
 
 # Available Scripts
 
